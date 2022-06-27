@@ -7,11 +7,11 @@ function RecipeCreate({addRecipe}) {
   // TODO: Add the required submit and change handlers
 
   const initialFormState = {
-    name: "Name",
-    cuisine: "Cuisine",
-    photo: "URL",
-    ingredients: "Ingredients",
-    preparation: "Preparation",
+    name: "",
+    cuisine: "",
+    photo: "",
+    ingredients: "",
+    preparation: "",
   };
 
   const [formData, setFormData] = useState({...initialFormState});
